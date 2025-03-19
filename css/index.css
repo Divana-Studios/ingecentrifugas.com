@@ -4,14 +4,14 @@
 
     --btn-color: #fdfdfd;/* button color*/
     --btn-bg: #101010;/* button bg color*/
-
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --primary-text-color: #1d1b1b;
 }
 
 
 html {
     scroll-behavior: smooth;
-    font-family: "Roboto", sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header{
@@ -27,7 +27,8 @@ header > .collapsible-header{
     background-color: inherit;
     place-content: center;
     overflow: hidden;
-    transition: width 0.3s ease;
+    transition: width 0.3s ease-in-out;
+    
 }
 
 .animated-collapse{
@@ -46,7 +47,8 @@ header > .collapsible-header{
 
 
 .header-links:hover {
-    color: #1e85ec;
+    color: #03520d;
+    text-decoration: underline;
 }
 
 
@@ -76,6 +78,10 @@ header > .collapsible-header{
 
 .btn:hover{
 
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000;
+    border-width: 2px;
 }
 
 .btn:disabled{
@@ -118,7 +124,8 @@ header > .collapsible-header{
 }
 
 .footer-link:hover{
-    color: #483cf4;
+    color: #024b1e;
+    text-decoration: underline;
 }
 
 
@@ -188,8 +195,16 @@ header > .collapsible-header{
         box-shadow: 2px 0px 3px #000;
     }
 
-    .header-links{
+    .footer-links{
         color: black;
     }
+    
+}
+footer{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: left;
+    border-top: 1px solid #000000;
     
 }

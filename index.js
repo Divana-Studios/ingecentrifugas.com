@@ -1,4 +1,5 @@
 // initialization
+//very bonice, tu hiciste el responsive? 
 
 const RESPONSIVE_WIDTH = 1024
 
@@ -50,3 +51,6 @@ function responsive() {
 }
 
 window.addEventListener("resize", responsive)
+
+
+
